@@ -1,7 +1,7 @@
 {
 	"name": "@once-ui-system/magic-portfolio",
 	"version": "0.2.0",
-	"homepage": "https://<Username>.github.io/<Repository-name>",
+	"homepage": "https://lim0nada.github.io/honey",
 	"scripts": {
 		"dev": "next dev",
 		"export": "next export",
