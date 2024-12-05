@@ -1,12 +1,15 @@
 {
 	"name": "@once-ui-system/magic-portfolio",
 	"version": "0.2.0",
+	"homepage": "https://<Username>.github.io/<Repository-name>",
 	"scripts": {
 		"dev": "next dev",
 		"export": "next export",
 		"build": "next build",
 		"start": "next start",
-		"lint": "next lint"
+		"lint": "next lint",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build" 
 	},
 	"dependencies": {
 		"@floating-ui/react-dom": "^2.1.1",
@@ -36,6 +39,7 @@
 		"@types/node": "^20",
 		"@types/react": "^18",
 		"@types/react-dom": "^18",
+		"gh-pages": "^6.2.0",
 		"postcss-custom-media": "^10.0.7",
 		"postcss-flexbugs-fixes": "^5.0.2",
 		"typescript": "^5"
